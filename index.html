@@ -35,21 +35,21 @@
           class="navbar max-w-screen-lg mx-auto bg-base-100 bg-white rounded-xl shadow-md"
         >
           <section class="flex items-center space-x-2 flex-1">
-            <img src="./assets/logo.png" alt="" />
+            <img class="h-7" src="./assets/logo.png" alt="" />
             <div class="flex items-center justify-center">
-              <a class="text-2xl">Dev<span class="font-bold">Board</span></a>
+              <a class="text-xl">Dev<span class="font-bold">Board</span></a>
             </div>
           </section>
           <div class="flex items-center justify-center gap-6">
             <div class="flex gap-2 p-2 rounded-xl bg-[#F4F7FF]">
-              <img class="h-8" src="./assets/checkbox.png" alt="" />
+              <img class="h-6" src="./assets/checkbox.png" alt="" />
               <span class="flex">
-                <h2 id="added-btn" class="font-bold text-2xl">23</h2>
+                <h2 id="added-btn" class="font-bold text-xl">23</h2>
               </span>
             </div>
             <img
               id="theme-btn"
-              class="h-8 flex items-center justify-center"
+              class="h-7 flex items-center justify-center"
               src="./assets/theme-btn.png"
               alt=""
             />
@@ -60,7 +60,7 @@
     <main class="max-w-screen-lg mx-auto gap-2 mt-7 p-2">
       <section class="flex flex-row gap-2">
         <!-- left -->
-        <div class="w-3/4 bg-white rounded-xl p-2">
+        <section class="w-3/4 bg-white rounded-xl p-2">
           <section class="grid grid-cols-7 gap-3">
             <div
               class="flex items-center justify-center gap-1 h-20 bg-[#F4F7FF] rounded-lg col-span-2"
@@ -81,7 +81,7 @@
               class="flex bg-gradient-to-r from-[#3752FD] from-0% via-[#6C7FFA] via-53% to-[#9BA8F8] to-100% rounded-lg col-span-3"
             >
               <img src="./assets/board.png" alt="" />
-              <a href="./qna.html" class="flex text-lg"
+              <a href="./qna.html" class="flex text-md"
                 ><h1 class="flex items-center justify-center text-white">
                   Discover Something <br />
                   New Today!
@@ -96,7 +96,10 @@
                 src="./assets/calender.png"
                 alt=""
               />
-              <h1 id="date" class="font-bold"></h1>
+              <div>
+                <span id="day" class="font-bold"></span> <br />
+                <span id="date" class="font-bold"></span>
+              </div>
             </div>
           </section>
 
@@ -226,10 +229,10 @@
               </div>
             </div>
           </section>
-        </div>
+        </section>
         <!-- right/activity log -->
-        <div class="w-1/4 p bg-white rounded-xl">
-          <section class="flex flex-col justify-center items-center">
+        <section class="w-1/4 p bg-white rounded-xl">
+          <div class="flex flex-col justify-center items-center">
             <div class="flex justify-center items-center gap-2">
               <img class="h-5" src="./assets/activity.png" alt="" />
               <h1 class="text-lg">Activity log</h1>
@@ -240,11 +243,11 @@
                 Clear-History
               </button>
             </div>
-          </section>
+          </div>
           <p class="border-b mt-4 border-dotted w-full"></p>
 
-          <section id="fix-release" class=""></section>
-        </div>
+          <section id="fix-release" class="font-semibold"></section>
+        </section>
       </section>
     </main>
     <script src="./script/complete-btn.js"></script>
