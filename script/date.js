@@ -15,3 +15,4 @@ function date() {
 window.onload = function() {
     date(); 
 };
+

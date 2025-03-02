@@ -11,11 +11,3 @@ document.getElementById('theme-btn').addEventListener('click',function(event){
     document.body.style.backgroundColor= setRandomColor();       
 })
 
-
-
-
-
-
-
-
-
